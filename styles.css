@@ -1,0 +1,166 @@
+/* Resetando os estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo e Fontes */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Estilos do Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Seção Home */
+#welcome {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#welcome h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#welcome p {
+    font-size: 20px;
+}
+
+/* Seção Projetos */
+#projects {
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+#projects h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.project img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.project-info {
+    max-width: 400px;
+    padding-left: 20px;
+}
+
+.project-info h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project-info p {
+    font-size: 16px;
+}
+
+.project-info a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Seção Sobre */
+#about {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+}
+
+#about h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Seção Contato */
+#contact {
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}

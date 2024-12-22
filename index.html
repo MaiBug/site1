@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfólio - Seu Nome</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Seção Home -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+        <section id="home">
+            <div class="welcome">
+                <h1>Bem-vindo ao meu Portfólio</h1>
+                <p>Olá, sou [Seu Nome], um desenvolvedor web apaixonado por criar soluções incríveis!</p>
+            </div>
+        </section>
+    </header>
+
+    <!-- Seção Projetos -->
+    <section id="projects">
+        <h2>Meus Projetos</h2>
+        <div class="project">
+            <img src="projeto1.jpg" alt="Projeto 1">
+            <div class="project-info">
+                <h3>Projeto 1</h3>
+                <p>Descrição do projeto 1...</p>
+                <a href="#">Ver Mais</a>
+            </div>
+        </div>
+        <div class="project">
+            <img src="projeto2.jpg" alt="Projeto 2">
+            <div class="project-info">
+                <h3>Projeto 2</h3>
+                <p>Descrição do projeto 2...</p>
+                <a href="#">Ver Mais</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="about">
+        <h2>Sobre Mim</h2>
+        <p>Sou um desenvolvedor web com experiência em [tecnologias]. Gosto de trabalhar em projetos desafiadores e tenho uma paixão por criar experiências incríveis para os usuários.</p>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contact">
+        <h2>Entre em Contato</h2>
+        <form action="mailto:seuemail@example.com" method="post" enctype="text/plain">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <p>Ou me encontre nas redes sociais:</p>
+        <a href="https://www.linkedin.com/in/seu-perfil">LinkedIn</a> |
+        <a href="https://github.com/seu-usuario">GitHub</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
